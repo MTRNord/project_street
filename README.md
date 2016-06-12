@@ -10,10 +10,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them
 
-```
 1. Get an Raspberry Pi with PiCamera
 
-2. Install some software: sudo apt-get install libopenvc-dev build-essentials clang automake autoconf make
+2. Install some software: 
+```
+sudo apt-get install libopenvc-dev build-essentials clang automake autoconf make
 ```
 
 ### Installing
