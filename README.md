@@ -1,6 +1,6 @@
 # Project Street
 
-Secret Project (WIP)
+Secret Project (WIP) [![Build Status](https://travis-ci.org/MTRNord/project_street.svg?branch=master)](https://travis-ci.org/MTRNord/project_street)
 
 ## Getting Started
 
@@ -12,7 +12,7 @@ What things you need to install the software and how to install them
 
 1. Get an Raspberry Pi with PiCamera
 
-2. Install some software: 
+2. Install some software:
 ```
 sudo apt-get install libopenvc-dev build-essentials clang automake autoconf make
 ```
