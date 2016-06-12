@@ -10,4 +10,4 @@ before_install:
 - echo $LC_ALL
 - if [ $TRAVIS_OS_NAME == linux ]; then chmod 755 ./scripts/llvm.sh && ./scripts/llvm.sh; fi
 before_script:
-- if [ $TRAVIS_OS_NAME == linux ]; then travis_retry aclocal && automake --add-missing && autoconf && ./configure; fi
+- if [ $TRAVIS_OS_NAME == linux ]; then travis_retry autoheader && aclocal && automake --add-missing && autoconf && ./configure; fi
