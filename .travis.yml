@@ -9,5 +9,6 @@ before_install:
 - echo $LANG
 - echo $LC_ALL
 - if [ $TRAVIS_OS_NAME == linux ]; then chmod 755 ./scripts/llvm.sh && ./scripts/llvm.sh; fi
+- sudo apt-get install libopencv-dev
 before_script:
 - if [ $TRAVIS_OS_NAME == linux ]; then travis_retry autoheader && aclocal && automake --add-missing && autoconf && ./configure; fi
