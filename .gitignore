@@ -1,0 +1,17 @@
+.cproject
+.project
+
+autom4te.cache
+aclocal.m4
+compile
+config.*
+depcomp
+.deps
+.dirstamp
+install-sh
+Makefile
+Makefile.in
+missing
+stamp*
+
+*.o
